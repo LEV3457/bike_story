@@ -1,19 +1,26 @@
 .bike_1{
     background-color: blue;
     height: 850px;
+    width: 1800px;
+    margin-left: 50px;
     background-image: url("images/article-turist.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: blue;
-    opacity: .7;
-    color: aliceblue;
-    text-align: center
+    opacity: .9;
+    text-align: center;
     
 }
 
 
 .name{
-    height: 60px;
+    height: 850px;
     background-color: rgb(52, 7, 126);
-    opacity: .9;
+    opacity: .3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px black;
+    color: rgb(21, 85, 58);
+    
+
 }
