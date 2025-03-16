@@ -1,11 +1,19 @@
 .bike_1{
     background-color: blue;
-    height: 600px;
-    background-image: url("images/P90386413-the-bmw-r-18-first-edition-04-2020-2248px.jpg");
+    height: 850px;
+    background-image: url("images/article-turist.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: blue;
-    opacity: 10;
+    opacity: .7;
     color: aliceblue;
     text-align: center
+    
+}
+
+
+.name{
+    height: 60px;
+    background-color: rgb(52, 7, 126);
+    opacity: .9;
 }
