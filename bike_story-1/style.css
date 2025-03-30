@@ -1,0 +1,38 @@
+.bike_1{
+    background-color: blue;
+    height: 850px;
+    width: 1400px;
+    margin-left: 50px;
+    background-image: url("images/article-turist.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    opacity: .9;
+    text-align: center;
+    
+}
+
+
+.name{
+    height: 100px;
+    background-color: rgb(94, 15, 154);
+    opacity: .9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+
+.first{
+    color: black;
+    
+}
+
+.opacity_1{
+    background-color: blueviolet;
+    opacity: .3;
+    height: 750px;
+    margin-bottom: 300px;
+
+}
