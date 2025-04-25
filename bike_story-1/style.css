@@ -1,14 +1,17 @@
 .bike_1{
     background-color: blue;
     height: 850px;
-    width: 1400px;
+    width: 1750px;
     margin-left: 50px;
     background-image: url("images/article-turist.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    
-    opacity: .9;
+    display: grid;
     text-align: center;
+    margin: center;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+
     
 }
 
@@ -21,6 +24,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     border: 1px rgb(0, 0, 0);
     color: rgb(0, 0, 0);
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    
 }
 
 
@@ -34,5 +40,39 @@
     opacity: .3;
     height: 750px;
     margin-bottom: 300px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+
 
 }
+
+.profile{
+    background-image: url("images/fonstola.ru_408300.jpg");
+    background-repeat: no-repeat; 
+    width: 200px;
+    height: 200px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+
+.mask-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .mask-text {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px;
+    transition: transform 0.7s ease;
+  }
+  
+  .mask-container:hover .mask-text {
+    transform: translateY(-100%); /* Поднимаем на высоту блока */
+  }
