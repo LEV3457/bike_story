@@ -8,14 +8,15 @@
     <script src="start.js"></script>
 </head>
 <body>
+    
     <button id="myButton">Нажми меня</button>
-    <script src="script.js"></script>
+    <script src="start.js"></script>
     <div class="bike_1">
         
         <div class="name">
-            <div><h1>de</h1></div>
-            <div><h1>gt</h1></div>
-            <div><h1>hyt</h1></div>
+            <div><h1>найди</h1></div>
+            <div><h1>свой </h1></div>
+            <div><h1>мото</h1></div>
         </div>
         <div class="opacity_1"></div>
             <h1><div class="first"></div></h1>
@@ -24,14 +25,72 @@
     </div>
 
     <h1>Создатель</h1>
-    <div class="profile"><h3>т пупс</h3>
+    <div class="profile"><h3>  <h3> Кароч это создатель сайта и он очень устал. Его заставли делать проект <br>
+        странно, где он . присмотрись на его профиль(наведи мышку)
+        </h3><h3>
+        </h3> </h3>
         <div class="mask-container">
-            <img src="images/fonstola.ru_408300.jpg" alt="Фото">
-            <div class="mask-text">Текст выходит из фото</div>
-          </div>
+            <img src="images/fonstola.ru_408300.jpg" alt="Фото">\
+            <div class="mask-text">Милашка</div>
+            <div class="tixt"> <h3> Кароч это создатель сайта и он очень устал. Его заставли делать проект <br>
+                странно, где он . присмотрись на его профиль(наведи мышку)
+                </h3>
+            </div>
+        
+        </div>
     </div>
 
+    <div class="container">
+        <h1>найдите нужную вам мототехнику</h1>
+        <input type="search" id="moto" placeholder="Поиск">
+        <button id="Button">Найти</button>
+        <p id="message"></p>
+    
 
+        <div class="filters2">
+            <div class="filter-group">
+            <label for="type">Тип техники:</label>
+            <select id="type" name="type">
+                <option value="">Все типы</option>
+                <option value="sport">Спортивные</option>
+                <option value="cruiser">Круизеры</option>
+                <option value="enduro">Эндуро</option>
+                <option value="scooter">Скутеры</option>
+                <option value="atv">Квадроциклы</option>
+            </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="type">Maрка</label>
+                <select id="type" name="type">
+                <option value="">виды</option>
+                <option value="sport">BMW</option>
+                <option value="cruiser">Honda</option>
+                <option value="enduro">Yamaha</option>
+                <option value="scooter">Kawasaki</option>
+                <option value="atv">Suzuki</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="year_from">Год</label>
+                <input type="number" id="year_from" name="year_from" min="1980" max="2025" placeholder="1980">
+            </div>
+        
+        <div class="filter-group">
+            <label for="year_from">Новая модель</label>
+            <input type="radio" id="new" name="new_name"  placeholder="">
+        </div>
+
+
+        <div class="filter-group">
+            <label for="year_from">Цена($)</label>
+            <input type="number" id="year_from" name="year_from" min="0" max="10000" placeholder="0">
+            
+            <label for="year_from">до:</label>
+            <input type="number" id="year_from" name="year_from" min="0" max="10000" placeholder="10000">
+        </div>
+    </div>
 
 
 

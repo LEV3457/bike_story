@@ -47,22 +47,31 @@
 }
 
 .profile{
-    background-image: url("images/fonstola.ru_408300.jpg");
+    /* background-image: url("images/fonstola.ru_408300.jpg");
     background-repeat: no-repeat; 
     width: 200px;
     height: 200px;
     background-size: 100% 100%;
-    border-radius: 50%;
+    border-radius: 50%; */
+    
+    
+    
 }
 
 .mask-container {
+    background-image: url("images/fonstola.ru_408300.jpg");
+    background-repeat: no-repeat; 
+
+    background-size: 100% 100%;
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
+    
+
   }
   
-  .mask-text {
+  .mask-text { 
     position: absolute;
     top: 100%;
     left: 0;
@@ -74,5 +83,40 @@
   }
   
   .mask-container:hover .mask-text {
-    transform: translateY(-100%); /* Поднимаем на высоту блока */
+    background-image: url("images/fonstola.ru_408300.jpg");
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+    transform: translateY(-100%); 
   }
+
+  .tixt {
+    margin-left: 200px;
+    margin-bottom: 200px;
+  }
+
+.container{
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+    
+}
+
+.filters2{
+    text-align: center;
+    display:  flex;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 50px;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
