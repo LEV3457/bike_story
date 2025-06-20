@@ -83,12 +83,31 @@
         </div>
 
 
-        <div class="filter-group">
-            <label for="year_from">Цена($)</label>
-            <input type="number" id="year_from" name="year_from" min="0" max="10000" placeholder="0">
-            
-            <label for="year_from">до:</label>
-            <input type="number" id="year_from" name="year_from" min="0" max="10000" placeholder="10000">
+    <div class="filter-group2">
+        <div class="price-filter">
+            <label for="price_min">Цена ($):</label>
+            <div class="price-inputs">
+            <input 
+            type="number" 
+            id="price_min" 
+            name="price_min" 
+            min="0" 
+            max="10000" 
+            placeholder="0"
+            aria-label="Минимальная цена"
+            step="1">
+            <span class="price-separator">–</span>
+            <input 
+            type="number" 
+            id="price_max" 
+            name="price_max" 
+            min="0" 
+            max="10000" 
+            placeholder="10000"
+            aria-label="Максимальная цена"
+            step="1">
+                </div>
+            </div>
         </div>
     </div>
     </div>
