@@ -1,33 +1,142 @@
+/* .nachalo{
+  background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 100px;
+    background-image: url("images/free-icon-motorbike-1820667.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */
 .bike_1{
-    background-color: blue;
-    height: 850px;
-    width: 1750px;
-    margin-left: 50px;
-    background-image: url("images/article-turist.jpg");
+    background-color: rgb(224, 224, 228);
+    height: 505px;
+    width: 100%;
+    /* background-image: url("images/article-turist.jpg"); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: grid;
     text-align: center;
     margin: center;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
+    /* border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%; */
 
-    
 }
-
 
 .name{
-    height: 100px;
-    background-color: rgb(94, 15, 154);
-    opacity: .9;
+    height: 88px;
+    background-color:  rgb(224, 224, 228);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    border: 1px rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
-    border-top-left-radius: 5%;
-    border-bottom-right-radius: 5%;
-    
+    grid-template-columns: 18% 64% 18%;
+    border: 44px ;
+
 }
+.name > * {
+    border: 1px solid rgb(255, 241, 241);
+}
+
+
+.block_2{
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  display: grid;
+}
+
+.a1{
+    background-image: url("images/freestyle-bike.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: center;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.a2{
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.a3{
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.a4{
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.a5{
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.a6{
+/* background-image: url("images/free-icon-telegram-123726.png");
+background-image: url("images/free-icon-youtube-3992550.png");
+background-image: url("images/free-icon-facebook-3536423.png");
+
+ background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: center;
+    width: 22px;
+    height: 22px; */
+
+}
+
+.a7{
+  background-image: url("images/free-icon-telegram-123726.png");
+   background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: center;
+    width: 22px;
+    height: 22px;
+}
+
+.a8{
+    background-image: url("images/free-icon-youtube-3992550.png");
+   background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: center;
+    width: 22px;
+    height: 22px;
+}
+
+.a9{
+      background-image: url("images/free-icon-facebook-3536423.png");
+   background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: center;
+    width: 22px;
+    height: 22px;
+}
+
+
+.name_1{
+  background-color: rgb(224, 224, 228);
+  width: 100%;
+  height: 416px;
+  background-color:  rgb(224, 224, 228);
+  display: grid;
+  grid-template-columns: 18% 64% 18%;
+}
+
+.name_1 > *{
+  border: 1px solid rgb(255, 241, 241);
+}
+
+
 
 
 .first{
@@ -35,7 +144,7 @@
     
 }
 
-.opacity_1{
+/* .opacity_1{
     background-color: blueviolet;
     opacity: .3;
     height: 750px;
@@ -44,7 +153,7 @@
     border-bottom-right-radius: 5%;
 
 
-}
+} */
 
 .profile{
     /* background-image: url("images/fonstola.ru_408300.jpg");
