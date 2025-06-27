@@ -83,16 +83,9 @@
 }
 
 .a6{
-/* background-image: url("images/free-icon-telegram-123726.png");
-background-image: url("images/free-icon-youtube-3992550.png");
-background-image: url("images/free-icon-facebook-3536423.png");
-
- background-repeat: no-repeat;
-    background-size: 100% 100%;
-    margin: center;
-    width: 22px;
-    height: 22px; */
-
+  margin-left: 150px;
+  grid-template-columns: 1fr 1fr 1fr;
+  
 }
 
 .a7{
@@ -111,6 +104,7 @@ background-image: url("images/free-icon-facebook-3536423.png");
     margin: center;
     width: 22px;
     height: 22px;
+    margin-top: 10px;
 }
 
 .a9{
@@ -120,6 +114,7 @@ background-image: url("images/free-icon-facebook-3536423.png");
     margin: center;
     width: 22px;
     height: 22px;
+    margin-top: 10px;
 }
 
 
@@ -237,6 +232,8 @@ background-image: url("images/free-icon-facebook-3536423.png");
             text-align: center;
             margin: 30px 0;
             border-radius: 8px;
+            max-width: 64%;
+            margin: 0 auto;
  }
  .price-filter {
   display: flex;
@@ -264,6 +261,7 @@ background-image: url("images/free-icon-facebook-3536423.png");
 .filter-group{
   padding: 0.5rem;
   border: 1px solid #ddd;
+  
   border-radius: 4px;
   width: 100px;
   display: flex;
@@ -272,3 +270,47 @@ background-image: url("images/free-icon-facebook-3536423.png");
   flex-direction: column;
   gap: 0.5rem;
 }
+
+
+.profile {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 0 auto;
+  width: 64%;
+  border-right: 1px solid rgb(224, 224, 228);
+  border-left: 1px solid rgb(224, 224, 228);
+  border-bottom: 1px solid rgb(224, 224, 228);
+  border-top: 1px solid rgb(224, 224, 228);
+
+}
+
+.moto{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 0 auto;
+  width: 64%;
+  border-right: 1px solid rgb(224, 224, 228);
+  border-left: 1px solid rgb(224, 224, 228);
+  border-bottom: 1px solid rgb(224, 224, 228);
+  border-top: 1px solid rgb(224, 224, 228);
+  height: 250px;
+  text-align: center;
+
+  
+}
+
+.moto2{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+  text-align: center;
+
+}
+
+
+.b1{
+  background-image: url("yamaha-r7-midnight-black-2024-01-1600x1200.jpg");
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+
+}
+
