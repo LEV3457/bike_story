@@ -295,6 +295,7 @@
   border-top: 1px solid rgb(224, 224, 228);
   height: 250px;
   text-align: center;
+  
 
   
 }
@@ -308,9 +309,139 @@
 
 
 .b1{
-  background-image: url("yamaha-r7-midnight-black-2024-01-1600x1200.jpg");
-    background-repeat: no-repeat; 
-    background-size: 100% 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.c1{
+  background-image: url("images/yamaha-r7-midnight-black-2024-01-1600x1200.jpg");
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  width: 130px;
+  height: 100px;
+
+  margin: 0 auto;
+}
+
+.c2{
+    background-image: url("images/Keeway Sixties 300_01.jpg");
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  width: 130px;
+  height: 100px;
+
+  margin: 0 auto;
+}
+
+.c3{
+    background-image: url("images/400l-green.png");
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  width: 130px;
+  height: 100px;
+
+  margin: 0 auto;
+}
+
+.c4{
+    background-image: url("images/i685-fdpd.png");
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  width: 130px;
+  height: 100px;
+
+  margin: 0 auto;
+}
+
+.c5{
+    background-image: url("images/hydro.jpg");
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  width: 130px;
+  height: 100px;
+
+  margin: 0 auto;
+}
+
+
+
+.c6{
+    background-image: url("images/BIg2_8.png");
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  width: 130px;
+  height: 100px;
+
+  margin: 0 auto;
+}
+
+
+.c7{
+    background-image: url("images/kak-vybrat-baggi1-1.1729291347.jpg.535x803r.webp");
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  width: 130px;
+  height: 100px;
+
+  margin: 0 auto;
+}
+
+/* .cryto{
+background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozrachnom-fone-15.png");
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  width: 530px;
+  height: 400px;
+  opacity: 0.8;
+  transition: transform 0.5s ease;
+  transform: rotate(345deg);
+  margin-left: 100px;
+  margin-top: 40px;
+} */
+
+
+.container5 {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 70px;
+
 
 }
 
+.block {
+  position: absolute;
+  width: 64%;
+  height: 150px;
+  
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.cryto {
+  background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozrachnom-fone-15.png");
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+ width: 130px;
+  height: 100px;
+ transform: rotate(345deg);
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 530px;
+  height: 400px;
+  opacity: 0.8;
+  margin-left: 90px;
+  margin-bottom: 200px;
+}
+
+.front-block {
+  background: #4ecdc4;
+  z-index: 2;
+  top: 200px;  /* Смещение вниз */
+  left: 40px; /* Смещение вправо */
+  max-width: 64%;
+  height: 240px;
+  margin-left: 300px;
+
+}
