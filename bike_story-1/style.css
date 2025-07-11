@@ -234,6 +234,7 @@
             border-radius: 8px;
             max-width: 64%;
             margin: 0 auto;
+            margin-top: 80px;
  }
  .price-filter {
   display: flex;
@@ -547,8 +548,28 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
 }
 
 
+.info{
+  height: 300px;
+  width: 64%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+    box-shadow: 
+    0 2px 4px rgba(0, 0, 0, 0.336),
+    0 4px 8px rgba(0, 0, 0, 0.267);
+       font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-left: 15px;
+    
+
+}
 
 
+.pup{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
 
 
 /* 
