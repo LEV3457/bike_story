@@ -9,8 +9,11 @@
 </head>
 <body>
     
-
+    
     <script src="start.js"></script>
+
+    
+
     <div class="bike_1">
         
         <div class="name">
@@ -112,6 +115,34 @@
     </div>
 
 
+
+
+<div class="M1" style="padding: 20px; background: #f0f0f0; cursor: pointer;">
+  Нажми на меня
+</div>
+
+<div id="message" style="display: none; position: fixed;top: 200px; left: 50%; transform: translateX(-50%); background: #4CAF50; color: white; padding: 150px; border-radius: 5px;">
+  Сообщение появилось!
+</div>
+
+<script>
+  document.querySelector('.M1').addEventListener('click', function() {
+    const message = document.getElementById('message');
+    message.style.display = 'block';
+    
+    // Скрываем сообщение через 3 секунды
+    setTimeout(() => {
+      message.style.display = 'none';
+    }, 3000);
+  });
+</script>
+
+
+
+
+
+
+
     <!-- <div class="container">
         <h1>найдите нужную вам мототехнику</h1>
         <input type="search" id="moto" placeholder="Поиск">
@@ -172,41 +203,35 @@
             <input 
             type="number" 
             id="price_min" 
-            name="price_min" 
-            min="0" 
-            max="10000" 
-            placeholder="0"
-            aria-label="Минимальная цена"
-            step="1">
-            <span class="price-separator">–</span>
-            <input 
-            type="number" 
-            id="price_max" 
-            name="price_max" 
-            min="0" 
-            max="10000" 
-            placeholder="10000"
-            aria-label="Максимальная цена"
-            step="1">
-                </div>
-            </div>
-        </div>
+
     </div>
     </div> -->
 
+    <div class="test">
+        <div class="j1" >  <h2>Тест-драйв</h2><h5>обязательное наличие экипировки</h5></div>
+        <div class="j2"><h2>Купить в лизинг</h2><h5>узнайте размер и количество платежей</h5></div>
+        <div class="j3"><h2>Купить в кредит</h2><h5>расчитайте кредит на интересующую мототехнику</h5></div>
+        <div class="j4"><h2>Обменять мотоцикл</h2><h5>выгодные условия обмена вашей техники</h5></div>
+    </div>
+
+
+</div>
+
     <div class="info"> <h2>Услуги</h2>
         <div class="pup">
+            
             <div class="r1"></div>
             <div class="n1"><h4>РЕМОНТ </h4> Обслуживание и 
                 ремонт мотоциклов   <br>Honda, Suzuki, Kawasaki,
-                 KTM, Triumph, BMW
-            </div>
+                KTM, Triumph, BMW
+
+                </div>
             <div class="r2"></div>
             <div class="n2"><h4>КОНСЕРВАЦИЯ И ХРАНЕНИЕ</h4>
             Специально для клиентов компании MAJOR предлагает услуги хранени
             е мототехники и подготовки ее к сезону
 
-                <!-- <div class="yslyga2"></div> -->
+                
             </div>
             <div class="r3"></div>
             <div class="n3"><h4>ЗАПЧАСТИ</h4> Всегда в наличии

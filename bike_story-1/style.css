@@ -1,11 +1,4 @@
-/* .nachalo{
-  background-color: rgb(255, 255, 255);
-    height: 50px;
-    width: 100px;
-    background-image: url("images/free-icon-motorbike-1820667.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-} */
+
 .bike_1{
     background-color: rgb(224, 224, 228);
     height: 505px;
@@ -23,7 +16,7 @@
 
 .name{
     height: 88px;
-    background-color:  rgb(224, 224, 228);
+    background-color:  rgb(238, 236, 236);
     display: grid;
     grid-template-columns: 18% 64% 18%;
     border: 44px ;
@@ -48,7 +41,15 @@
     height: 50px;
     margin: 0 auto;
     margin-top: 15px;
+
 }
+
+.a2:hover, .a3:hover, .a4:hover, .a5:hover {
+
+ 
+  color: #8c8d8ace;
+}
+
 
 .a2{
   margin: 0 auto;
@@ -56,6 +57,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
   letter-spacing: 1px;
+  transition: all 0.2s ease;
 }
 
 .a3{
@@ -64,6 +66,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
   letter-spacing: 1px;
+  transition: all 0.2s ease;
 }
 
 .a4{
@@ -72,6 +75,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
   letter-spacing: 1px;
+  transition: all 0.2s ease;
 }
 
 .a5{
@@ -80,6 +84,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
   letter-spacing: 1px;
+  transition: all 0.2s ease;
 }
 
 .a6{
@@ -119,10 +124,10 @@
 
 
 .name_1{
-  background-color: rgb(224, 224, 228);
+ 
   width: 100%;
   height: 416px;
-  background-color:  rgb(224, 224, 228);
+  background-color:  rgb(238, 236, 236);
   display: grid;
   grid-template-columns: 18% 64% 18%;
 }
@@ -430,6 +435,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   transition: all 0.3s ease;
+
 }
 
 .b5:hover {
@@ -820,7 +826,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   font-size: 15px;
   padding-top: 15px;
   padding-left: 15px;    
-  
+  margin-top: 55px;
 
 }
 .pup{
@@ -843,6 +849,22 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   margin: 0 auto;
   margin-top: 30px;
   margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.shadow {
+  /* display: flex; */
+  /* align-items: center; */
+  transition: all 0.3s ease;
+  /* padding: 10px; */
+  border-radius: 5px;
+  width: 200%;
+}
+
+.shadow:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #f8f8f8;
 }
 
 
@@ -932,7 +954,8 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   height: 200px;
   margin: 0 auto;
   margin-top: 20px;
-    grid-template-columns:  7.5% 17.5% 7.5% 17.5% 50% ;
+  grid-template-columns:  7.5% 17.5% 7.5% 17.5% 50% ;
+  
   display: grid;
   
 }
@@ -1026,3 +1049,32 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   height: 100px;
 
   margin: 0 auto; */
+
+.test{
+  width: 64%;
+  height: 150px;
+  
+  margin: 0 auto;
+  margin-bottom: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 
+    0 2px 4px rgba(0, 0, 0, 0.336),
+    0 4px 8px rgba(36, 36, 36, 0.068);
+  font-family: 'Roboto', sans-serif;
+    grid-template-columns:  1fr 1fr  1fr 1fr   ;
+  display: grid; 
+}
+
+
+.j1, .j2, .j3, .j4{
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+
+.j1:hover, .j2:hover,.j3:hover,.j4:hover{
+  background-color: #ee7070;
+  color: #f3f0f0;
+  height: 100%;
+  width: 100%;
+  
+}
