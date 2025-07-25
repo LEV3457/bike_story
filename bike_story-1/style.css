@@ -52,6 +52,7 @@
 
 
 .a2{
+  cursor: pointer;
   margin: 0 auto;
   margin-top: 30px;
   font-family: 'Roboto', sans-serif;
@@ -61,6 +62,7 @@
 }
 
 .a3{
+  cursor: pointer;
   margin: 0 auto;
   margin-top: 30px;
   font-family: 'Roboto', sans-serif;
@@ -70,6 +72,7 @@
 }
 
 .a4{
+  cursor: pointer;
   margin: 0 auto;
   margin-top: 30px;
   font-family: 'Roboto', sans-serif;
@@ -79,6 +82,7 @@
 }
 
 .a5{
+  cursor: pointer;
   margin: 0 auto;
   margin-top: 30px;
   font-family: 'Roboto', sans-serif;
@@ -88,12 +92,14 @@
 }
 
 .a6{
+  
   margin-left: 150px;
   grid-template-columns: 1fr 1fr 1fr;
   
 }
 
 .a7{
+  cursor: pointer;
   background-image: url("images/free-icon-telegram-123726.png");
    background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -103,6 +109,7 @@
 }
 
 .a8{
+  cursor: pointer;
     background-image: url("images/free-icon-youtube-3992550.png");
    background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -113,6 +120,7 @@
 }
 
 .a9{
+  cursor: pointer;
       background-image: url("images/free-icon-facebook-3536423.png");
    background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -342,7 +350,7 @@
   width: 130px;
   height: 100px;
   margin: 0 auto;
-
+  cursor: pointer;
 }
 
 
@@ -369,7 +377,7 @@
   background-size: 100% 100%;
   width: 130px;
   height: 100px;
-
+  cursor: pointer;
   margin: 0 auto;
 }
 
@@ -397,7 +405,7 @@
   background-size: 100% 100%;
   width: 130px;
   height: 100px;
-
+  cursor: pointer;
   margin: 0 auto;
 }
 
@@ -426,7 +434,7 @@
   background-size: 100% 100%;
   width: 130px;
   height: 100px;
-
+  cursor: pointer;
   margin: 0 auto;
 }
 
@@ -458,7 +466,7 @@
   background-size: 100% 100%;
   width: 130px;
   height: 100px;
-
+  cursor: pointer;
   margin: 0 auto;
 }
 
@@ -488,7 +496,7 @@
   background-size: 100% 100%;
   width: 130px;
   height: 100px;
-
+  cursor: pointer;
   margin: 0 auto;
 }
 
@@ -520,7 +528,7 @@
   background-size: 100% 100%;
   width: 130px;
   height: 100px;
-
+  cursor: pointer;
   margin: 0 auto;
 }
 
@@ -602,6 +610,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   height: 80px;
    transition: all 0.3s ease;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 
@@ -626,6 +635,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   height: 90px;
  transition: all 0.3s ease;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 
@@ -650,6 +660,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   height: 90px;
  transition: all 0.3s ease;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .f3:hover {
@@ -673,6 +684,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   height: 80px;
  transition: all 0.3s ease;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .f4:hover {
@@ -697,6 +709,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   height: 90px;
  transition: all 0.3s ease;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .f5:hover {
@@ -721,6 +734,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   height: 80px;
  transition: all 0.3s ease;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 
@@ -748,6 +762,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   height: 100px;
  transition: all 0.3s ease;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 
@@ -774,6 +789,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   height: 80px;
  transition: all 0.3s ease;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .f8:hover {
@@ -798,6 +814,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   height: 80px;
  transition: all 0.3s ease;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 
@@ -850,6 +867,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   margin-top: 30px;
   margin-right: 10px;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .shadow {
@@ -878,6 +896,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   margin: 0 auto;
   margin-top: 30px;
   margin-right: 10px;
+  cursor: pointer;
 } 
 
 
@@ -890,6 +909,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   margin: 0 auto;
   margin-top: 30px;
   margin-right: 10px;
+  cursor: pointer;
 } 
 
 
@@ -902,6 +922,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   margin: 0 auto;
   margin-top: 30px;
   margin-left: 20px;
+  cursor: pointer;
 } 
 
 
@@ -914,6 +935,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   margin: 0 auto;
   margin-top: 30px;
   margin-right: 10px;
+  cursor: pointer;
 } 
 
 
@@ -926,6 +948,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   margin: 0 auto;
   margin-top: 30px;
   margin-right: 10px;
+  cursor: pointer;
 } 
 
 
@@ -1069,6 +1092,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
 .j1, .j2, .j3, .j4{
   margin: 0 auto;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .j1:hover, .j2:hover,.j3:hover,.j4:hover{
@@ -1077,4 +1101,37 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   height: 100%;
   width: 100%;
   
+}
+
+#message{
+display: none;
+ position: fixed;
+ top: 0px; left: 50%;
+  transform: translateX(-50%);
+  background: #252525c5;
+ color: rgba(17, 16, 16, 0.466);
+  padding: 150px; border-radius:
+  5px; width: 100%;
+   height: 100%;
+
+}
+
+#message2{
+  display: none;
+   position: fixed;
+   top: 250px;
+    left: 50%;
+     transform: translateX(-50%);
+  background: #f3f3f3;
+ color: rgb(17, 16, 16);
+  padding: 150px;
+   border-radius: 5px;
+    width: 400px; 
+    height: 150px;
+     margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  grid-template-columns:  20% 80%;
+  padding-left: 20px;
+  padding-top: 35px;
 }
