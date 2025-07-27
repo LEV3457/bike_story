@@ -583,7 +583,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
 
 .front-block {
   background: #ffffff;
-  z-index: 2;
+  /* z-index: 2; */
   top: 200px;  /* Смещение вниз */
   left: 40px; /* Смещение вправо */
   max-width: 64%;
@@ -1110,8 +1110,9 @@ display: none;
   transform: translateX(-50%);
   background: #252525c5;
  color: rgba(17, 16, 16, 0.466);
-  padding: 150px; border-radius:
-  5px; width: 100%;
+  padding: 150px;
+   border-radius: 5px; 
+   width: 100%;
    height: 100%;
 
 }
@@ -1119,13 +1120,13 @@ display: none;
 #message2{
   display: none;
    position: fixed;
-   top: 250px;
+   top: 280px;
     left: 50%;
      transform: translateX(-50%);
   background: #f3f3f3;
  color: rgb(17, 16, 16);
   padding: 150px;
-   border-radius: 5px;
+   border-radius: 8px;
     width: 400px; 
     height: 150px;
      margin: 0 auto;
@@ -1134,4 +1135,17 @@ display: none;
   grid-template-columns:  20% 80%;
   padding-left: 20px;
   padding-top: 35px;
+   border: 1px solid rgb(255, 0, 0);
+
 }
+
+#message3{
+    background-image: url("images/2586922.png");
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  width: 170px;
+  height: 170px;
+  margin-left: 315px;
+  margin-top: -95px;
+}
+

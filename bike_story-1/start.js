@@ -12,12 +12,30 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Обработчики кликов
   document.querySelector('.a2').addEventListener('click', function() {
-    showMessage('message', 3000);
-    showMessage('message2', 3000);
+    showMessage('message', 4500);
+    showMessage('message2', 4500);
   });
 
   document.querySelector('.j1').addEventListener('click', function() {
-    showMessage('message', 3000);
-    showMessage('message2', 3000);
+    showMessage('message', 4500);
+    showMessage('message2', 4500);
   });
+
+
+  document.querySelector('.j2').addEventListener('click', function() {
+    showMessage('message', 4500);
+    showMessage('message2', 4500);
+  });
+
+    document.querySelector('.j3').addEventListener('click', function() {
+    showMessage('message', 4500);
+    showMessage('message2', 4500);
+  });
+
+    document.querySelector('.j4').addEventListener('click', function() {
+    showMessage('message', 4500);
+    showMessage('message2', 4500);
+  });
+
+
 });
