@@ -33,14 +33,14 @@
 }
 
 .a1{
-    background-image: url("images/freestyle-bike.png");
+    background-image: url("images/Riderly-logo-transparent.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: center;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     margin: 0 auto;
-    margin-top: 15px;
+    margin-top: 0px;
 
 }
 
@@ -54,7 +54,7 @@
 .a2{
   cursor: pointer;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 20px;
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
   letter-spacing: 1px;
@@ -585,7 +585,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   background: #ffffff;
   /* z-index: 2; */
   top: 200px;  /* Смещение вниз */
-  left: 40px; /* Смещение вправо */
+  left: -30px; /* Смещение вправо */
   max-width: 64%;
   height: 240px;
   margin-left: 300px;
@@ -968,6 +968,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   height: 100px;
   color: white;
   
+  
 }
 
 
@@ -977,7 +978,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   height: 200px;
   margin: 0 auto;
   margin-top: 20px;
-  grid-template-columns:  7.5% 17.5% 7.5% 17.5% 50% ;
+  grid-template-columns:  9% 16% 9% 16% 50% ;
   
   display: grid;
   
@@ -1149,3 +1150,29 @@ display: none;
   margin-top: -95px;
 }
 
+.help{
+  max-width: 64%;
+  height: 150px;
+  
+  margin: 0 auto;
+  margin-top: 80px;
+  grid-template-columns:  16% 16% 16%  16%  16% 16%  ;
+  display: grid;
+}
+
+.w1{
+  margin: 0 auto;
+      background-image: url("images/Riderly-logo-transparent.png");
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  width: 170px;
+  height: 170px;
+}
+
+
+.w2, .w3, .w4, .w5, .w6{
+  margin: 0 auto;
+   font-family: 'Segoe UI', sans-serif;
+  font-size: 15px;
+  margin-top: 40px;
+}
