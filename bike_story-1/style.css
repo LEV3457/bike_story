@@ -1176,3 +1176,18 @@ display: none;
   font-size: 15px;
   margin-top: 40px;
 }
+
+.help2{
+  width: 64%;
+  height: 300px;
+  margin: 0 auto;
+  grid-template-columns: 25% 25% 25% 25% ;
+  display: grid;
+}
+
+.w7, .w8, .w9, .w10, .w11{
+  
+   font-family: 'Segoe UI', sans-serif;
+  font-size: 15px;
+  margin-top: 40px;
+}
