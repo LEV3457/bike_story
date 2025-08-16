@@ -596,7 +596,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
 }
 
 .marks{
-  grid-template-columns:  1fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+  grid-template-columns:   1fr  1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
   display: grid; 
   margin-bottom: 40px;
 }
@@ -606,8 +606,8 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   background-image: url("marks/osm-atvarmor-logo.png");
   background-repeat: no-repeat; 
   background-size: 100% 100%;
-  width: 135px;
-  height: 80px;
+  width: 115px;
+  height: 90px;
    transition: all 0.3s ease;
   margin: 0 auto;
   cursor: pointer;
@@ -627,7 +627,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
 
 
 
-.f2{
+/* .f2{
   background-image: url("marks/4-harley-davidson.png");
   background-repeat: no-repeat; 
   background-size: 100% 100%;
@@ -636,27 +636,23 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
  transition: all 0.3s ease;
   margin: 0 auto;
   cursor: pointer;
-}
+} */
 
 
-.f2:hover {
-  /* background-image: url("images/yamaha-r7-midnight-black-2024-01-1600x1200.jpg");
-   background-repeat: no-repeat; 
-  background-size: 100% 100%;
-  width: 130px;
-  height: 100px; */
+/* .f2:hover {
+
  
-  transform: scale(1.05); /* Увеличение на 5% */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Тень */
+  transform: scale(1.05); 
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
 }
-
+ */
 
 
 .f3{
   background-image: url("marks/967b4a8423825602438dc5009472bd59.jpg");
   background-repeat: no-repeat; 
   background-size: 100% 100%;
-  width: 110px;
+  width: 115px;
   height: 90px;
  transition: all 0.3s ease;
   margin: 0 auto;
@@ -680,8 +676,8 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   background-image: url("marks/BMW_logo_(gray).svg.png");
   background-repeat: no-repeat; 
   background-size: 100% 100%;
-  width: 87px;
-  height: 80px;
+  width: 105px;
+  height: 90px;
  transition: all 0.3s ease;
   margin: 0 auto;
   cursor: pointer;
@@ -705,7 +701,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   background-image: url("marks/g15vfmc4nzz9etm9zidlcobtjcg7vrwl.jpg");
   background-repeat: no-repeat; 
   background-size: 100% 100%;
-  width: 110px;
+  width: 115px;
   height: 90px;
  transition: all 0.3s ease;
   margin: 0 auto;
@@ -730,8 +726,8 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   background-image: url("marks/honda-moto_logo_e-motors_ru.jpg");
   background-repeat: no-repeat; 
   background-size: 100% 100%;
-  width: 95px;
-  height: 80px;
+  width: 115px;
+  height: 90px;
  transition: all 0.3s ease;
   margin: 0 auto;
   cursor: pointer;
@@ -758,8 +754,8 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   background-image: url("marks/kawasaki-logo-1.jpg");
   background-repeat: no-repeat; 
   background-size: 100% 100%;
-  width: 130px;
-  height: 100px;
+  width:  115px;
+  height: 90px;
  transition: all 0.3s ease;
   margin: 0 auto;
   cursor: pointer;
@@ -785,8 +781,8 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   background-image: url("marks/e0d966f2aaee29ec8e0d3a96cf61a3a1.jpg");
   background-repeat: no-repeat; 
   background-size: 100% 100%;
-  width: 90px;
-  height: 80px;
+  width: 115px;
+  height: 90px;
  transition: all 0.3s ease;
   margin: 0 auto;
   cursor: pointer;
@@ -810,8 +806,8 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   background-image: url("marks/Suzuki_logo_2025_(vertical).svg.png");
   background-repeat: no-repeat; 
   background-size: 100% 100%;
-  width: 100px;
-  height: 80px;
+  width: 115px;
+  height: 90px;
  transition: all 0.3s ease;
   margin: 0 auto;
   cursor: pointer;
