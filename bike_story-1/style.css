@@ -54,7 +54,7 @@
 .a2{
   cursor: pointer;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 30px;
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
   letter-spacing: 1px;
@@ -144,7 +144,12 @@
   border: 1px solid rgb(255, 241, 241);
 }
 
+.block_5{
+      background-image: url("");
+    background-repeat: no-repeat; 
 
+    background-size: 100% 100%;
+}
 
 
 .first{
@@ -585,7 +590,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
   background: #ffffff;
   /* z-index: 2; */
   top: 200px;  /* Смещение вниз */
-  left: -30px; /* Смещение вправо */
+  left: 40px; /* Смещение вправо */
   max-width: 64%;
   height: 240px;
   margin-left: 300px;
