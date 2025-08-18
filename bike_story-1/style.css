@@ -333,7 +333,7 @@
 .b1{
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
-  transition: all 0.3s ease;
+  
 }
 
 
@@ -344,7 +344,7 @@
   background-size: 100% 100%;
   width: 130px;
   height: 100px; */
- 
+ transition: all 0.3s ease;
   transform: scale(1.05); /* Увеличение на 5% */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Тень */
 }
