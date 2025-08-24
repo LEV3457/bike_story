@@ -1,0 +1,399 @@
+.name{
+    height: 88px;
+    background-color:  rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 18% 64% 18%;
+    border: 44px ;
+
+}
+.name > * {
+    border: 1px solid rgb(255, 241, 241);
+}
+
+
+.block_2{
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  display: grid;
+}
+
+.a1{
+    background-image: url("images/Riderly-logo-transparent.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: center;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 0px;
+
+}
+
+.a2:hover, .a3:hover, .a4:hover, .a5:hover {
+
+ 
+  color: #8c8d8ace;
+}
+
+
+
+.a2, .a3, .a4, .a5{
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+  transition: all 0.2s ease;
+
+}
+
+
+.a6 {
+  
+  margin-left: 150px;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+
+.a7{
+  cursor: pointer;
+  background-image: url("images/free-icon-telegram-123726.png");
+   background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: center;
+    width: 22px;
+    height: 22px;
+}
+
+.a8{
+  cursor: pointer;
+    background-image: url("images/free-icon-youtube-3992550.png");
+   background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: center;
+    width: 22px;
+    height: 22px;
+    margin-top: 10px;
+}
+
+.a9{
+    cursor: pointer;
+    background-image: url("images/free-icon-facebook-3536423.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: center;
+    width: 22px;
+    height: 22px;
+    margin-top: 10px;
+}
+
+
+.name2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.name3 {
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.categories-grid {
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 15px;
+    cursor: pointer;
+    
+
+}
+
+.moto_logo{
+    width: 30%;
+    height: 35px;
+    margin-left: 300px;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 45px;
+    display: grid;
+    
+}
+
+.logo1{
+    background-image: url("marks/967b4a8423825602438dc5009472bd59.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: center;
+    cursor: pointer;  
+}
+
+.logo2{
+    background-image: url("marks/BMW_logo_(gray).svg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: center; 
+    cursor: pointer; 
+}
+.logo3{
+    background-image: url("marks/e0d966f2aaee29ec8e0d3a96cf61a3a1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: center;
+    cursor: pointer;  
+}
+.logo4{
+    background-image: url("marks/g15vfmc4nzz9etm9zidlcobtjcg7vrwl.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: center;
+    cursor: pointer;  
+}
+.logo5{
+    background-image: url("marks/honda-moto_logo_e-motors_ru.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: center;
+    cursor: pointer;  
+}
+.logo6{
+    background-image: url("marks/kawasaki-logo-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: center;
+    cursor: pointer;  
+}
+.logo7{
+    background-image: url("marks/Suzuki_logo_2025_(vertical).svg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: center;
+    cursor: pointer;  
+}
+.moto {
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 120px;
+    height: px;
+}
+
+.c1 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    width: 100%;
+    height: 100%; 
+    gap: 15px;
+}
+
+.b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9, .b10, .b11, .b12, .b13, .b14, .b15, .b16,
+.b17, .b18, .b19, .b20, .b21, .b22, .b23, .b24, .b25, .b26, .b27, .b28{
+    display: grid; /* Добавлено */
+    grid-template-rows: 68% 32%; /* Изменено с columns на rows */
+    width: 100%;
+    height: 290px; 
+    margin: 0 auto;
+    border: 1px solid rgb(224, 224, 228);
+    box-shadow: 
+        0 2px 4px rgba(0, 0, 0, 0.164),
+        0 2px 4px rgba(0, 0, 0, 0.164);
+    transition: all 0.3s ease;
+}
+
+.b1:hover, .b2:hover, .b3:hover, .b4:hover, .b5:hover, .b6:hover, .b7:hover, .b8:hover, .b9:hover, .b10:hover, .b11:hover,
+.b12:hover, .b13:hover, .b14:hover, .b15:hover, .b16:hover, .b17:hover, .b18:hover, .b19:hover, .b20:hover, .b21:hover, .b22:hover,
+ .b23:hover, .b24:hover, .b25:hover, .b26:hover, .b27:hover,.b28:hover {
+
+
+  transform: scale(1.03); 
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+}
+
+.d1, .d3, .d5, .d7, .d9, .d11, .d13, .d15, .d17, .d19, .d21, .d23, .d25, .d27, .d29, .d31,
+.d33, .d35, .d37, .d39, .d41, .d43, .d45, .d47, .d49, .d51, .d53, .d55  {
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    
+}
+
+.d2, .d4, .d6, .d8, .d10, .d12, .d14, .d16, .d18, .d20, .d22, .d24, .d26, .d28, .d30, .d32
+,.d34, .d36, .d38, .d40, .d42, .d44, .d46, .d48, .d50, .d52, .d54, .d56 {
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+  .color{
+    color: #828380;
+    margin-bottom: 100px;
+  }
+
+.d1 {
+    background-image: url("images/CFMOTO 250 JETMAX.jpg");
+}
+
+.d3 {
+    background-image: url("images/BMW C 400 GT 2022.jpg");
+}
+
+.d5 {
+    background-image: url("images/BMW-CE-003.webp");
+}
+
+.d7 {
+    background-image: url("images/BMW CE 04 2024.jpg");
+}
+
+.d9 {
+    background-image: url("images/BMW 400X.webp");
+}
+
+.d11 {
+    background-image: url("images/HONDA ACTIVA 125.avif");
+}
+
+.d13{
+    background-image: url("images/HONDA NSS 350 FORZA.png");
+}
+
+.d15 {
+    background-image: url("images/Honda U-qe.jpg");
+}
+
+.d17 {
+    background-image: url("images/KTM 150 EXC TPI.png");
+}
+
+.d19 {
+    background-image: url("images/KTM 390 Duke.png");
+}
+
+.d21 {
+    background-image: url("images/KTM 890 Duke GP.png");
+}
+
+.d23 {
+    background-image: url("images/KTM RC 390.jpg");
+}
+
+.d25 {
+    background-image: url("images/cb125f (1).jpg");
+}
+.d27 {
+    background-image: url("images/CB200X HONDA.png");
+}
+.d29 {
+    background-image: url("images/HONDA CB400X.png");
+}
+.d31 {
+    background-image: url("images/FERRRRR.jpg");
+}
+
+.d33 {
+    background-image: url("images/kawasaki-ninja-1100sx.webp");
+}
+
+.d35 {
+    background-image: url("images/kawasaki z900 rs se.webp");
+}
+
+.d37 {
+    background-image: url("images/kawasaki-klr-650.webp");
+}
+
+.d39 {
+    background-image: url("images/kawasaki-vulcan-s.webp");
+}
+
+.d41 {
+    background-image: url("images/xsr-900-gp (1).webp");
+}
+
+.d43 {
+    background-image: url("images/tenere-700.jpg");
+}
+
+.d45 {
+    background-image: url("images/r1.webp");
+}
+
+.d47 {
+    background-image: url("images/tracer-9-gt.webp");
+}
+
+.d49 {
+    background-image: url("images/Suzuki-GSX-R1000-.jpg");
+}
+
+.d51 {
+    background-image: url("images/Suzuki-HAYABUSA-A.jpg");
+}
+.d53 {
+    background-image: url("images/Suzuki-INTRUDER-C.jpg");
+}
+.d55 {
+    background-image: url("images/Suzuki-V-STROM-10.jpg");
+}
+
+.help{
+  max-width: 64%;
+  height: 150px;
+  
+  margin: 0 auto;
+  margin-top: 80px;
+  grid-template-columns:  16% 16% 16%  16%  16% 16%  ;
+  display: grid;
+}
+
+.w1{
+  margin: 0 auto;
+      background-image: url("images/Riderly-logo-transparent.png");
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  width: 170px;
+  height: 170px;
+}
+
+
+.w2, .w3, .w4, .w5, .w6{
+  margin: 0 auto;
+   font-family: 'Segoe UI', sans-serif;
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+.help2{
+  width: 64%;
+  height: 300px;
+  margin: 0 auto;
+  grid-template-columns: 25% 25% 25% 25% ;
+  display: grid;
+}
+
+.w7, .w8, .w9, .w10, .w11{
+  
+   font-family: 'Segoe UI', sans-serif;
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+
+
+.end{
+  background-color: #000000;
+  width: 100%;
+  height: 100px;
+  color: white;
+  
+  
+}
