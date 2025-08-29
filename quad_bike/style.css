@@ -217,9 +217,12 @@
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
-    width: 100%;
+    width: 82%;
     height: 100%;
     cursor: pointer;
+    /* background-size: 100% 100%; */
+    margin: auto;
+
     
 }
 
@@ -239,56 +242,37 @@
   }
 
 .d1 {
-    background-image: url("images/CFMOTO 250 JETMAX.jpg");
+    background-image: url("images/CFMOTO CROFCE 500.jpg");
 }
 
 .d3 {
-    background-image: url("images/BMW C 400 GT 2022.jpg");
+    background-image: url("images/CFMOTO 1000.webp");
 }
 
 .d5 {
-    background-image: url("images/BMW-CE-003.webp");
+    background-image: url("images/CFMOTO CFORCE 600.webp");
 }
 
 .d7 {
-    background-image: url("images/BMW CE 04 2024.jpg");
+    background-image: url("images/CFMOTO CFORCE 800 (1).jpg");
 }
 
 .d9 {
-    background-image: url("images/BMW 400X.webp");
+    background-image: url("images/HONDA TRX520.jpg");
+    height: 87%;
+    margin-top: 40px;
 }
 
 .d11 {
-    background-image: url("images/HONDA ACTIVA 125.avif");
+    background-image: url("images/HONDA TRX680FA.webp");
+    width: 85%;
+    height: 120%;
 }
 
 .d13{
-    background-image: url("images/HONDA NSS 350 FORZA.png");
+    background-image: url("images/KAWASAKI BRUTE FORCE 750.jpg");
 }
 
-.d15 {
-    background-image: url("images/Honda U-qe.jpg");
-}
-
-.d17{
-    background-image: url("images/HONDA PCX125.jpg");
-}
-
-.d19{
-    background-image: url("images/YAMAHA N-MAX 155.png");
-}
-
-.d21{
-    background-image: url("images/YAMAHA TMAX 2024.webp");
-}
-
-.d23{
-    background-image: url("images/YAMAHA XMAX 2025.jpg");
-}
-
-.d25{
-    background-image: url("images/HONDA PCX125.jpg");
-}
 
 
 
