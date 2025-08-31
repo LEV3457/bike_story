@@ -601,7 +601,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
 }
 
 .marks{
-  grid-template-columns:   1fr  1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+  grid-template-columns:   1fr  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
   display: grid; 
   margin-bottom: 40px;
 }
@@ -632,8 +632,8 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
 
 
 
-/* .f2{
-  background-image: url("marks/4-harley-davidson.png");
+.f2{
+  background-image: url("marks/brp_m_1.png");
   background-repeat: no-repeat; 
   background-size: 100% 100%;
   width: 110px;
@@ -641,16 +641,16 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
  transition: all 0.3s ease;
   margin: 0 auto;
   cursor: pointer;
-} */
+}
 
 
-/* .f2:hover {
+.f2:hover {
 
  
   transform: scale(1.05); 
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
 }
- */
+
 
 
 .f3{
@@ -678,7 +678,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
 
 
 .f4{
-  background-image: url("marks/BMW_logo_(gray).svg.png");
+  background-image: url("marks/bmw_b.png");
   background-repeat: no-repeat; 
   background-size: 100% 100%;
   width: 105px;
@@ -756,7 +756,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
 
 
 .f7{
-  background-image: url("marks/kawasaki-logo-1.jpg");
+  background-image: url("marks/kawasaki-logo-1 (1).jpg");
   background-repeat: no-repeat; 
   background-size: 100% 100%;
   width:  115px;
@@ -783,7 +783,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
 
 
 .f8{
-  background-image: url("marks/e0d966f2aaee29ec8e0d3a96cf61a3a1.jpg");
+  background-image: url("marks/crop_yamaha1000x563_1.jpg");
   background-repeat: no-repeat; 
   background-size: 100% 100%;
   width: 115px;
@@ -808,7 +808,7 @@ background-image: url("images/foni-papik-pro-dddx-p-kartinki-mototsikl-na-prozra
 
 
 .f9{
-  background-image: url("marks/Suzuki_logo_2025_(vertical).svg.png");
+  background-image: url("marks/icon-suzuki (1).jpg");
   background-repeat: no-repeat; 
   background-size: 100% 100%;
   width: 115px;
