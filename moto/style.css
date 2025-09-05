@@ -114,7 +114,7 @@
 }
 
 .moto_logo{
-    width: 32%;
+    width: 38%;
     height: 35px;
     margin-left: 300px;
     margin-top: 50px;
@@ -137,7 +137,8 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: center; 
-    cursor: pointer; 
+    cursor: pointer;
+    height: 43px; 
 }
 .logo3{
     background-image: url("marks/e0d966f2aaee29ec8e0d3a96cf61a3a1.jpg");
@@ -172,16 +173,21 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: center;
-    cursor: pointer;  
+    cursor: pointer;
+    height: 30px;  
+    margin-top: 10px;
 }
 
 .logo8{
-    background-image: url("marks/brp_m_1.png");
+    background-image: url("marks/osm-atvarmor-logo.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: center;
     cursor: pointer;
+    height: 50px;
+    width: 70px;
 }
+
 .moto {
     margin: 0 auto;
     width: 70%;
@@ -199,10 +205,10 @@
 
 .b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9, .b10, .b11, .b12, .b13, .b14, .b15, .b16,
 .b17, .b18, .b19, .b20, .b21, .b22, .b23, .b24, .b25, .b26, .b27, .b28{
-    display: grid; 
-    grid-template-rows: 62% 37%; 
+    display: grid; /* Добавлено */
+    grid-template-rows: 68% 32%; /* Изменено с columns на rows */
     width: 100%;
-    height: 320px; 
+    height: 290px; 
     margin: 0 auto;
     border: 1px solid rgb(224, 224, 228);
     box-shadow: 
@@ -228,9 +234,6 @@
     width: 100%;
     height: 100%;
     cursor: pointer;
-    background-size: 100% 100%;
-    margin: auto;
-
     
 }
 
@@ -250,60 +253,111 @@
   }
 
 .d1 {
-    background-image: url("images/BRP Maverick DS Turbo.jpg");
+    background-image: url("images/de51ec6c98dddf8f4d6c01b0abaaf120.jpg");
 }
 
 .d3 {
-    background-image: url("images/BRP Traxter DPS HD9.png");
-    width: 95%;
+    background-image: url("images/newsimage_202009231325252.jpg");
 }
 
 .d5 {
-    background-image: url("images/BRP Traxter MAX DPS HD9.jpg");
-    width: 94%;
+    background-image: url("images/BMW R 1250 RT.jpg");
 }
 
 .d7 {
-    background-image: url("images/BRP Traxter X MR HD10.jpg");
-    
+    background-image: url("images/BMW R18.png");
 }
 
 .d9 {
-    background-image: url("images/CFMOTO UFORCE 1000 EPS.jpg");
-    height: 95%;
-    width: 95%;
+    background-image: url("images/CFMOTO 450MT.webp");
 }
 
 .d11 {
-    background-image: url("images/CFMOTO UFORCE 1000 XL EPS.jpg");
-    width: 90%;
-
+    background-image: url("images/CFMOTO 675SR-R (ABS).png");
 }
 
 .d13{
-    background-image: url("images/CFMOTO ZFORCE 950 Sport-4 EPS.jpg");
-    width: 90%;
+    background-image: url("images/CFMOTO CLX700 DAMPER (ABS).jpg");
 }
 
 .d15 {
-    background-image: url("images/CFMOTO ZFORCE 1000 Sport R EPS.webp");
-    width: 90%;
+    background-image: url("images/CFMOTO 250 NK.png");
 }
 
 .d17 {
-    background-image: url("images/Kawasaki Teryx 1000 2022.jpg");
-    width: 95%;
-
+    background-image: url("images/KTM 150 EXC TPI.png");
 }
 
-.d19{
-    background-image: url("images/Kawasaki Teryx KRX 1000.jpg");
-    width: 95%;
+.d19 {
+    background-image: url("images/KTM 390 Duke.png");
 }
 
+.d21 {
+    background-image: url("images/KTM 890 Duke GP.png");
+}
 
+.d23 {
+    background-image: url("images/KTM RC 390.jpg");
+}
 
+.d25 {
+    background-image: url("images/cb125f (1).jpg");
+}
+.d27 {
+    background-image: url("images/CB200X HONDA.png");
+}
+.d29 {
+    background-image: url("images/HONDA CB400X.png");
+}
+.d31 {
+    background-image: url("images/FERRRRR.jpg");
+}
 
+.d33 {
+    background-image: url("images/kawasaki-ninja-1100sx.webp");
+}
+
+.d35 {
+    background-image: url("images/kawasaki z900 rs se.webp");
+}
+
+.d37 {
+    background-image: url("images/kawasaki-klr-650.webp");
+}
+
+.d39 {
+    background-image: url("images/kawasaki-vulcan-s.webp");
+}
+
+.d41 {
+    background-image: url("images/xsr-900-gp (1).webp");
+}
+
+.d43 {
+    background-image: url("images/tenere-700.jpg");
+}
+
+.d45 {
+    background-image: url("images/r1.webp");
+}
+
+.d47 {
+    background-image: url("images/tracer-9-gt.webp");
+}
+
+.d49 {
+    background-image: url("images/Suzuki-GSX-R1000-.jpg");
+}
+
+.d51 {
+    background-image: url("images/Suzuki-HAYABUSA-A.jpg");
+}
+.d53 {
+    background-image: url("images/Suzuki-INTRUDER-C.jpg");
+}
+.d55 {
+    background-image: url("images/Suzuki-V-STROM-10.jpg");
+}
 
 .help{
   max-width: 64%;
@@ -354,5 +408,6 @@
   width: 100%;
   height: 100px;
   color: white;
-
+  
+  
 }
