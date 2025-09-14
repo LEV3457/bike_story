@@ -119,7 +119,7 @@
     margin-left: 300px;
     margin-top: 50px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 45px;
+    gap: 35px;
     display: grid;
     
 }
@@ -170,9 +170,11 @@
 .logo7{
     background-image: url("marks/Suzuki_logo_2025_(vertical).svg.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 85% 85%;
     margin: center;
-    cursor: pointer;  
+    cursor: pointer;
+    margin-top: 5px;
+    
 }
 
 .logo8{
@@ -183,6 +185,7 @@
     cursor: pointer;
     border-radius: 10px;
     border: 1px solid #9b9999;
+    width: 50px;
 }
 
 .logo9{
@@ -280,17 +283,18 @@
 }
 
 .d9 {
-    background-image: url("images/osm sm 1000.jpg");
-    height: 110%;
+    background-image: url("images/BRP Maverick DS Turbo.jpg");
 }
 
 .d11 {
-    background-image: url("images/HONDA TRX680FA.webp");
-
+    background-image: url("images/BRP Traxter DPS HD9.png");
 }
 
 .d13{
-    background-image: url("images/KAWASAKI BRUTE FORCE 750.jpg");
+    background-image: url("images/BRP Traxter MAX DPS HD9.jpg");
+}
+.d15{
+    background-image: url("images/BRP Traxter X MR HD10.jpg");
 }
 
 
