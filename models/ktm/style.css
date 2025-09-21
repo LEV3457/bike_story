@@ -114,12 +114,12 @@
 }
 
 .moto_logo{
-    width: 38%;
-    height: 35px;
+    width: 43%;
+    height: 45px;
     margin-left: 300px;
     margin-top: 50px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    gap: 45px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 35px;
     display: grid;
     
 }
@@ -137,8 +137,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: center; 
-    cursor: pointer;
-    height: 43px; 
+    cursor: pointer; 
 }
 .logo3{
     background-image: url("marks/e0d966f2aaee29ec8e0d3a96cf61a3a1.jpg");
@@ -152,7 +151,9 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: center;
-    cursor: pointer;  
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #9b9999;   
 }
 .logo5{
     background-image: url("marks/honda-moto_logo_e-motors_ru.jpg");
@@ -164,30 +165,44 @@
 .logo6{
     background-image: url("marks/kawasaki-logo-1.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 97% 100%;
     margin: center;
-    cursor: pointer;  
+    cursor: pointer;
+ 
 }
-.logo7{
+.logo7 {
     background-image: url("marks/Suzuki_logo_2025_(vertical).svg.png");
+    background-repeat: no-repeat;
+    background-size: 80% 85%;
+    background-position: center; 
+    margin: 0 auto; 
+    cursor: pointer;
+
+    width: 50px;
+    height: 50px;
+}
+
+.logo8{
+    background-image: url("marks/brp_m_1.png");;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: center;
     cursor: pointer;
-    height: 30px;  
-    margin-top: 10px;
+
+    width: 50px;
 }
 
-.logo8{
-    background-image: url("marks/osm-atvarmor-l");
+.logo9{
+    background-image: url("marks/osm-atvarmor-logo.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: center;
     cursor: pointer;
     height: 50px;
     width: 70px;
-}
+    margin-right: 10px;
 
+}
 .moto {
     margin: 0 auto;
     width: 70%;
@@ -231,9 +246,12 @@
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
-    width: 100%;
+    width: 90%;
     height: 100%;
     cursor: pointer;
+    background-size: 100% 100%;
+    margin: auto;
+
     
 }
 
@@ -253,111 +271,53 @@
   }
 
 .d1 {
-    background-image: url("images/de51ec6c98dddf8f4d6c01b0abaaf120.jpg");
-}
-
-.d3 {
-    background-image: url("images/newsimage_202009231325252.jpg");
-}
-
-.d5 {
-    background-image: url("images/BMW R 1250 RT.jpg");
-}
-
-.d7 {
-    background-image: url("images/BMW R18.png");
-}
-
-.d9 {
-    background-image: url("images/CFMOTO 450MT.webp");
-}
-
-.d11 {
-    background-image: url("images/CFMOTO 675SR-R (ABS).png");
-}
-
-.d13{
-    background-image: url("images/CFMOTO CLX700 DAMPER (ABS).jpg");
-}
-
-.d15 {
-    background-image: url("images/CFMOTO 250 NK.png");
-}
-
-.d17 {
     background-image: url("images/KTM 150 EXC TPI.png");
 }
 
-.d19 {
+.d3 {
     background-image: url("images/KTM 390 Duke.png");
 }
 
-.d21 {
+.d5 {
     background-image: url("images/KTM 890 Duke GP.png");
 }
 
-.d23 {
+.d7 {
     background-image: url("images/KTM RC 390.jpg");
+    background-size: 115% 150%;
+    margin-top: 20px;
 }
 
-.d25 {
-    background-image: url("images/cb125f (1).jpg");
-}
-.d27 {
-    background-image: url("images/CB200X HONDA.png");
-}
-.d29 {
-    background-image: url("images/HONDA CB400X.png");
-}
-.d31 {
-    background-image: url("images/FERRRRR.jpg");
+.d9 {
+    background-image: url("images/Kawasaki Teryx 1000 2022.jpg");
+    height: 110%;
 }
 
-.d33 {
-    background-image: url("images/kawasaki-ninja-1100sx.webp");
+.d11 {
+    background-image: url("images/Kawasaki Teryx KRX 1000.jpg");
+
 }
 
-.d35 {
+.d13{
     background-image: url("images/kawasaki z900 rs se.webp");
 }
 
-.d37 {
+.d15{
     background-image: url("images/kawasaki-klr-650.webp");
 }
 
-.d39 {
+.d17{
+    background-image: url("images/kawasaki-ninja-1100sx.webp");
+}
+
+.d19{
     background-image: url("images/kawasaki-vulcan-s.webp");
+    width: 87%;
 }
 
-.d41 {
-    background-image: url("images/xsr-900-gp (1).webp");
-}
 
-.d43 {
-    background-image: url("images/tenere-700.jpg");
-}
 
-.d45 {
-    background-image: url("images/r1.webp");
-}
 
-.d47 {
-    background-image: url("images/tracer-9-gt.webp");
-}
-
-.d49 {
-    background-image: url("images/Suzuki-GSX-R1000-.jpg");
-}
-
-.d51 {
-    background-image: url("images/Suzuki-HAYABUSA-A.jpg");
-}
-.d53 {
-    background-image: url("images/Suzuki-INTRUDER-C.jpg");
-}
-.d55 {
-    background-image: url("images/Suzuki-V-STROM-10.jpg");
-}
 
 .help{
   max-width: 64%;
@@ -401,13 +361,9 @@
   margin-top: 40px;
 }
 
-
-
 .end{
   background-color: #000000;
   width: 100%;
   height: 100px;
   color: white;
-  
-  
 }
